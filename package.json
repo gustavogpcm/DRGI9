@@ -1,0 +1,45 @@
+{
+  "name": "amadeus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "default"
+  ],
+  "author": "Dataintegra",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/cron": "^2.0.1",
+    "@types/node": "^20.3.1",
+    "@types/oracledb": "^6.0.0",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.43.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3",
+    "vitest": "^0.34.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/swagger": "^8.9.0",
+    "@fastify/swagger-ui": "^1.9.3",
+    "@types/xml2js": "^0.4.11",
+    "axios": "^1.4.0",
+    "cron": "^3.0.0",
+    "fast-xml-parser": "^4.2.7",
+    "fastify": "^4.18.0",
+    "fastify-swagger": "^5.2.0",
+    "knex": "^3.0.0",
+    "oracledb": "^6.0.1",
+    "pg": "^8.11.0",
+    "xml2js": "^0.6.2",
+    "xmlbuilder2": "^3.1.1",
+    "zod": "^3.21.4"
+  }
+}
