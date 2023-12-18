@@ -11,6 +11,5 @@ export async function buildCateterVascularCentral(
   const formatedDataInicial = converterData(item.DT_INICIAL_CATETER)
   cateterVascularCentral.setDataFinal(formatedDataFinal)
   cateterVascularCentral.setDataInicial(formatedDataInicial)
-  console.log('CATETER VASCULAR CENTRAL' + cateterVascularCentral)
   return cateterVascularCentral
 }
